@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EI1bx7wBxzLFK+DpfPELxGCB3/1BVTEFCqClfgerebU=",
+  "Source": "PublicParkingsSofiaWebAPI",
+  "BasePath": "_content/PublicParkingsSofiaWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
