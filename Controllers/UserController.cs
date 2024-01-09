@@ -119,9 +119,9 @@ namespace PublicParkingsSofiaWebAPI.Controllers
                 }
                 return BadRequest(ModelState);
             }
+            var a = await services.Registration(user);
 
-
-            return Accepted();
+            return Accepted(a);
 
         }
 

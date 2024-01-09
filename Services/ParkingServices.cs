@@ -184,7 +184,7 @@ namespace PublicParkingsSofiaWebAPI.Services
             {
                 throw new ArgumentException("There is user registered with this email!");
             }
-
+            user.ParkCredits = 0;
             context.Users.Add(user);
             await Save();
             return user;
